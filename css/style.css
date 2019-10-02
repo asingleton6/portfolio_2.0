@@ -1,0 +1,106 @@
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #FEC401;
+  font-size: 16px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+    font-family: Abel;
+    font-size: 37px;
+    font-weight: normal;
+}
+.self-portrait {
+  width: 100%;
+}
+/* GRID SYSTEM */
+.l-wrap {
+  margin-right: auto;
+  margin-left: auto;
+}
+.l-row:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.l-home {
+  width: calc(100% - 100px);
+  height: 275px;
+  position: relative;
+  top: -180px;
+  margin-bottom: -156px;
+  background-color: #3F88C5;
+  color: #fff;
+  padding: 0 36px;
+  border-radius: 5px;
+}
+.l-nav {
+  width: calc(100% - 100px);
+}
+.l-footer {
+  width: calc(100% - 100px);
+}
+.grid-item {
+  margin-right: 50px;
+  margin-left: 50px;
+  float: left;
+  /* background-color: #ccc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  width: calc((100% - 24px * 12) / 12);
+  margin-right: 12px;
+  margin-left: 12px;
+  background: blue;
+  opacity: 0.25;
+  float: left;
+  height: 80px;
+}
+
+/* NAVBAR */
+.navbar-desktop ul {
+  float: right;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-desktop li {
+  float: left;
+  padding: 0 13px;
+}
+
+.navbar-desktop ul li a {
+  color: #896900;
+  text-decoration: none;
+  padding-bottom: 3px;
+  font-size: 1rem;
+  font-family: Playfair Display;
+
+}
+
+.navbar-desktop ul li a:hover {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: none;
+}
+/* FOOTER */
+.fa-linkedin, .fa-github-square {
+    color: #896900;
+    font-size: 60px;
+    padding-right: 20px;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .l-home {
+  }
+}
