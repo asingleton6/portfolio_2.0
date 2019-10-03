@@ -92,37 +92,34 @@ p {
   float: left;
   height: 80px;
 }
-
 /* NAVBAR */
 .navbar-desktop ul {
   float: right;
   list-style-type: none;
   padding: 0;
 }
-
 .navbar-desktop li {
   float: left;
   padding: 0 13px;
 }
-
 .navbar-desktop ul li a {
   color: #896900;
   text-decoration: none;
   padding-bottom: 3px;
   font-size: 1rem;
   font-family: Playfair Display;
-
 }
-
 .navbar-desktop ul li a:hover {
   text-decoration: none;
 }
-
 .active {
   text-decoration: none;
 }
-/* ABOUT PAGE */
-
+/* PORTFOLIO */
+.gallery {
+  width: 100%;
+  margin-bottom: 15px;
+}
 /* FOOTER */
 .fa-linkedin, .fa-github-square {
     color: #896900;
