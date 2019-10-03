@@ -17,7 +17,7 @@ h1 {
 }
 h2 {
   font-family: Abel;
-  font-size: 31px;
+  font-size: 26px;
   font-weight: normal;
   color: #3F88C5;
   margin-block-start: 60px;
@@ -74,6 +74,7 @@ p {
 .l-footer {
   width: calc(100% - 100px);
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .grid-item {
   margin-right: 50px;
@@ -124,7 +125,7 @@ p {
 /* FOOTER */
 .fa-linkedin, .fa-github-square {
     color: #896900;
-    font-size: 60px;
+    font-size: 40px;
     padding-right: 20px;
     text-align: center;
 }
