@@ -71,6 +71,10 @@ p {
   width: calc(100% - 100px);
   flex-direction: column;
 }
+.l-contact {
+  width: calc(100% - 100px);
+  flex-direction: column;
+}
 .l-footer {
   width: calc(100% - 100px);
   margin-top: 20px;
@@ -121,6 +125,91 @@ p {
 .gallery {
   width: 100%;
   margin-bottom: 15px;
+}
+/* CONTACT */
+input.form-input {
+  background-color: rgba(255, 255, 255, 0.62);
+  color: #896900;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid #3F88C5;
+  padding: 20px 0;
+  padding-left: 25px;
+  margin-bottom: 11px;
+  width: 100%;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+input.form-input {
+  height: 70px;
+}
+
+textarea.form-input {
+  height: 186px;
+  background-color: rgba(255, 255, 255, 0.62);
+  color: #896900;
+  border-radius: 5px;
+  border: 1px solid #3F88C5;
+  padding: 25px;
+  margin-top: 0;
+  width: 100%;
+  font-size: 1em;
+}
+
+label {
+  margin-top: 45px;
+}
+
+.error, .success {
+  color: #d62637;
+}
+
+.success {
+  padding-top: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-input::placeholder, textarea.form-input::placeholder, label {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(137, 105, 0, 0.5);
+  opacity: 1;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  /* Firefox */
+}
+
+.form-input:-ms-input-placeholder, .form-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(137, 105, 0, 0.5);
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-input::-ms-input-placeholder, .form-input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(137, 105, 0, 0.5);
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.antispam {
+  display: none;
+}
+
+.btn {
+  width: 100%;
+  background: #E15554;
+  color: #fff;
+  font-family: "fjalla";
+  height: 60px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-top: 11px;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
 }
 /* FOOTER */
 .fa-linkedin, .fa-github-square {
